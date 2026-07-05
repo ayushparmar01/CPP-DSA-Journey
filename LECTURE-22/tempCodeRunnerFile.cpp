@@ -1,0 +1,1 @@
+out << "Total Length of string is: " << getlength(name) ;

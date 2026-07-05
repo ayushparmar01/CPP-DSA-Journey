@@ -1,0 +1,37 @@
+// Simple samajh lo:
+// Variable → value store karta hai
+// Pointer → variable ka address store karta hai
+// 👉 Pointer khud bhi ek variable hai, isliye uska bhi address hota hai
+
+#include<iostream>
+using namespace std;
+int main() {
+
+    /*
+    int num = 5;
+
+    cout << num << endl;
+
+    // address of operator - &
+
+    cout << "address of num is " << &num << endl;
+
+    int *ptr = &num;
+
+    cout << "Address is : " << ptr << endl;
+    cout << "value is : " << *ptr << endl;
+    */
+
+    double d = 4.3;
+    double *p2 = &d;
+
+    cout << "Address is : " << p2 << endl;
+    cout << "value is : " << *p2 << endl;
+
+    // cout << "Size of integer is " << sizeof(num) << endl;
+    // cout << "Size of pointer is " << sizeof(ptr) << endl;
+    cout << "Size of pointer is " << sizeof(p2) << endl;
+
+
+    return 0;
+}
