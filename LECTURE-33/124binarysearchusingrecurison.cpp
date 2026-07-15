@@ -28,7 +28,7 @@ int main() {
 
     int arr[5] = {4,2,1,6,8};
     int size = 5;
-    int key = 8;
+    int key = 9;
 
 
     cout << "present or not " << binarySearch(arr, 0, 5, key) << endl;
